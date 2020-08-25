@@ -6,6 +6,7 @@ def deco_p(func):
         return res
     return wrapper
 
+
 @deco_p
 def test(str):
     return str
